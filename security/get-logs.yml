@@ -1,5 +1,5 @@
 - name: Gather logs files from remote systems
-  hosts: leaf01
+  hosts: all
   become: yes
 
   tasks:
