@@ -1,5 +1,5 @@
 - name: Hello
-  hosts: "{{ target_hosts | default('localhost') }}"
+  hosts: all
 
   tasks:
     - debug:
